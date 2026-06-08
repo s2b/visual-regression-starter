@@ -1,4 +1,4 @@
 node_modules/
 reference-screenshots/
 test-results/
-visual-regression-report/**/*.png
+visual-regression-results/**/*.png
