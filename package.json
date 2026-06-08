@@ -1,0 +1,9 @@
+{
+  "name": "visual-regression-starter",
+  "version": "0.0.1",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@praetorius/visual-regression-tester": "^1.0"
+  }
+}
