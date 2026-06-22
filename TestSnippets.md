@@ -29,6 +29,8 @@ async function preparePageForScreenshot(page: Page) {
 
 ## Blocking all mp4 videos**
 
+Insert at the beginning of the `test` implementation (not within `preparePageForScreenshot()`):
+
 ```js
 await page.route('*/**/*.mp4', async route => {
   await route.abort();
