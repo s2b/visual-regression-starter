@@ -10,6 +10,7 @@ export default defineConfig({
   ],
   use: {
     ignoreHTTPSErrors: true,
+    bypassCSP: true,
   },
   globalSetup: ["@praetorius/visual-regression-tester/collector"],
   projects: [
